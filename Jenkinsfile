@@ -1,6 +1,7 @@
 pipeline {
     agent {
-        label 'Agent VM' 
+        // Replace 'azure-vm-agent' with the name of your Jenkins agent configured for the Azure VM
+        label 'Azure VM'
     }
     
     stages{
